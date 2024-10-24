@@ -73,15 +73,20 @@ Below are the structure under **data**.
 
 1. Model definition:  
 
-   ./ICCV2023/clsda/models/cls_models/srcmix_contrastive_model.py (for SSDA)
+   ./clsda/models/cls_models/srcmix_contrastive_model.py (for SSDA)
 
-   ./ICCV2023/clsda/models/cls_models/gvb_srcmix_contrastive_model.py (for UDA)
+   ./clsda/models/cls_models/gvb_srcmix_contrastive_model.py (for UDA)
 
 2. Training process: 
 
-   ./ICCV2023/clsda/trainers/trainer_fixmatch_srcmix.py (for SSDA)
+   clsda/trainers/trainer_fixmatch_srcmix.py (for SSDA)
 
-   ./ICCV2023/clsda/trainers/trainer_fixmatch_gvb_srcmix.py (for UDA)
+   ./clsda/trainers/trainer_fixmatch_gvb_srcmix.py (for UDA)
+   
+3. Loss Definition
+
+   Our contrastive loss is defined within each trainer, such as [contrastive_loss]((https://github.com/zhyx12/EIDCo/blob/74fbc437962911f9c4c64ab6712820c3e16f8492/clsda/trainers/trainer_fixmatch_hda_srcmix.py#L339)) in trainer_fixmatch_hda_srcmix.py file.
+
 
 ## Training scripts
 

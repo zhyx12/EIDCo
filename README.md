@@ -3,7 +3,7 @@ This is the source code of our proposed method ICCV2023 paper "Towards effective
 
 
 
-![Our framework](figures\framework.png)
+![Our framework](figures/framework.png)
 
 
 

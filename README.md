@@ -1,5 +1,9 @@
-# EIDCo
-This is the source code of our proposed method EIDCo.
+# Towards effective instance discrimination contrastive loss for unsupervised domain adaptation
+This is the source code of our proposed method ICCV2023 paper "Towards effective instance discrimination contrastive loss for unsupervised domain adaptation".
+
+
+
+![Our framework](.\figures\framework.png)
 
 
 
@@ -86,4 +90,16 @@ CUDA_VISIBLE_DEVICES=0,1 bash ./experiments/scripts/uda_fixmatch_gvb_srcmix_trai
 ```
 
 
+
+## Citing MM-CoT
+
+```
+@inproceedings{zhang2023eidco,
+  title={Towards effective instance discrimination contrastive loss for unsupervised domain adaptation},
+  author={Zhang, Yixin and Wang, Zilei and Li, Junjie and Zhuang, Jiafan and Lin, Zihan},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={11388--11399},
+  year={2023}
+}
+```
 

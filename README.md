@@ -91,7 +91,7 @@ CUDA_VISIBLE_DEVICES=0,1 bash ./experiments/scripts/uda_fixmatch_gvb_srcmix_trai
 
 
 
-## Citing MM-CoT
+## Citing EIDCo
 
 ```
 @inproceedings{zhang2023eidco,
